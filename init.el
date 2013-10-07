@@ -19,6 +19,9 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+(require 'auto-complete)
+(global-auto-complete-mode t)
+
 ;; ido config 
 (require 'ido)
 (ido-mode t)
