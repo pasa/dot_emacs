@@ -16,6 +16,9 @@
 (require 'yalinum)
 (global-yalinum-mode t)
 
+(require 'yasnippet)
+(yas-global-mode 1)
+
 ;; ido config 
 (require 'ido)
 (ido-mode t)
