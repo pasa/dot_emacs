@@ -18,7 +18,7 @@
 
 ;; ido config 
 (require 'ido)
-(id-mode t)
+(ido-mode t)
 (setq ido-enable-flex-matching t)
 
 ;; Eroemacs config
