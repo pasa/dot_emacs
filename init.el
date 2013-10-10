@@ -36,6 +36,9 @@
 ;; go-mode config
 (require 'go-mode)
 
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+
 (require 'sr-speedbar)
 (global-set-key (kbd "s-s") 'sr-speedbar-toggle)
 
